@@ -5,6 +5,9 @@
   "logo": "https://avatars.githubusercontent.com/u/5545431?v=3&s=100",
   "keywords": ["python", "django", "salesforce", "github"],
   "env": {
+    "DISABLE_COLLECTSTATIC":{
+      "value": "1"
+    },
     "DEBUG": {
       "description": "Determine whether to show Django's debug messages on errors.  Do not set to True on a production site!!!",
       "value": "False"
