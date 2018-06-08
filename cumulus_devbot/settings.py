@@ -338,3 +338,6 @@ if RQ_SYNC:
 SITE_LOGO_IMAGE_URL=os.environ.get('SITE_LOGO_IMAGE_URL')
 SITE_LOGO_LINK_URL=os.environ.get('SITE_LOGO_LINK_URL')
 SITE_LOGO_ALT_TEXT=os.environ.get('SITE_LOGO_ALT_TEXT')
+
+# Disabling Collectstatic
+DISABLE_COLLECTSTATIC=1
